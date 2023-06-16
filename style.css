@@ -43,6 +43,7 @@ li {
     color: #cfedf8;
     padding-bottom: 15px;
     padding-top: 15px;
+    padding-right: 25px;
 }
 .nav-bar {
     background-color: #2b2b2b;
@@ -78,7 +79,7 @@ a {
 .contact-us {
     margin: auto;
     text-align: right;
-    width: 50%;
+    width: 60%;
     background-color: #2b2b2b;
     border-radius: 10px;
     border-color: #2b2b2b;
@@ -154,14 +155,14 @@ input {
         font-size: medium;
     }
     .contact-us {
-        width: 80%;
+        width: 90%;
     }
     .bio {
         font-size: 14px;
         padding: 20px 10px 20px 10px;
     }
     .bio-pic {
-        width: 200px;
+        width: 150px;
     }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
@@ -172,10 +173,13 @@ input {
         font-size: large;
     }
     .contact-us {
-        width: 65%;
+        width: 75%;
     }
     .bio {
         font-size: 18px;
+    }
+    .bio-pic {
+        width: 230px;
     }
 }
 
